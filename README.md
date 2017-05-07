@@ -1,18 +1,16 @@
-# Wordpress Plugin for Woocommerce
-### Wraps the product image in the loop
+=== Woocommerce image wrapper ===
+
+== Wraps the product image in the loop ==
 
 After activation you can add custom css to your theme or to the customizer.
 
-**Example:**
+= Example CSS: =
 
-
-```
-.product-image-wrapper {
+.wciw-product-image-wrapper {
 	min-height: 210px;
 }
 
-.product-image-wrapper img {
+.wciw-product-image-wrapper img {
 	width: inherit!important;
 	margin: 0 auto !important;
 }
-```

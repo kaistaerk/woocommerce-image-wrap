@@ -46,7 +46,7 @@ if (in_array('woocommerce/woocommerce.php', apply_filters('active_plugins', get_
 
             if (has_post_thumbnail()) {
                 $props = wc_get_product_attachment_props(get_post_thumbnail_id(), $post);
-                return '<div class="product-image-wrapper">' . get_the_post_thumbnail($post->ID, $image_size, array(
+                return '<div class="wciw-product-image-wrapper">' . get_the_post_thumbnail($post->ID, $image_size, array(
                         'title' => $props['title'],
                         'alt' => $props['alt'],
                     )) . '</div>';

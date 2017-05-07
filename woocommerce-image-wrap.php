@@ -1,4 +1,7 @@
 <?php
+if (!defined('ABSPATH')) {
+    exit; // Exit if accessed directly
+}
 /*
 Plugin Name: WC image wrap
 Plugin URI: https://www.staerk-software.de
@@ -7,6 +10,8 @@ Author: Kai Stärk
 Version: 1.0
 Author URI: https://www.kaistaerk.de
 Text Domain: woocommerce-image-wrap
+WC requires at least: 3.0.5
+WC tested up to: 3.0.5
 
 License: GPLv2 or later
 
@@ -46,10 +51,11 @@ if (in_array('woocommerce/woocommerce.php', apply_filters('active_plugins', get_
 
             if (has_post_thumbnail()) {
                 $props = wc_get_product_attachment_props(get_post_thumbnail_id(), $post);
-                return '<div class="wciw-product-image-wrapper">' . get_the_post_thumbnail($post->ID, $image_size, array(
-                        'title' => $props['title'],
-                        'alt' => $props['alt'],
-                    )) . '</div>';
+                return '<div class="wciw-product-image-wrapper">' . get_the_post_thumbnail($post->ID, $image_size,
+                        array(
+                            'title' => $props['title'],
+                            'alt' => $props['alt'],
+                        )) . '</div>';
             } elseif (wc_placeholder_img_src()) {
                 return wc_placeholder_img($image_size);
             }

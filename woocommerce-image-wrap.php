@@ -3,14 +3,13 @@ if (!defined('ABSPATH')) {
     exit; // Exit if accessed directly
 }
 /**
- * Plugin Name: WC image wrap
+ * Plugin Name: Product image wrapper for WooCommerce
  * Plugin URI: https://www.staerk-software.de
  * Description: Wraps the product images in woocommerce
- * Author: WooCommerce
+ * Author: Kai Stärk
+ * Author URI: https://www.kaistaerk.de
  * Version: 1.0
- * Developer: Kai Stärk
- * Developer URI: https://www.kaistaerk.de
- * Text Domain: woocommerce-image-wrap
+ * Text Domain: wc-image-wrap
  * WC requires at least: 3.0.5
  * WC tested up to: 3.0.5
 

@@ -8,7 +8,7 @@ In may situations you are frustrated about the different image heights of your p
 crop the images you can use this plugin. It puts a wrapper div-element around the images so you can adjust the height by using
 css. See the example.
 
-After activation you can add custom css to your theme or to the customizer.
+After you activated the plugin, go to Options -> Product wrapper and add or change the specific css rules.
 
 === Image wrapper für WooCommerce ===
 
@@ -16,6 +16,8 @@ Produktbilder haben oft verschiedene Größen und das lässt sich bei WooCommerc
 automatisch zuzuschneiden. Dieses Plugin platziert um jedes Produktbild ein DIV-Element, sodass du für alle Produkte
 dieselbe Höhe setzen kannst. Sieh dir das Beispiel an.
 
+Nach der Aktivierung des Plugins findest du die Einstellungen unter "Einstellungen -> Product wrapper". Hier kannst du 
+die Regeln ändern oder neue hinzufügen.
 
 
 = Example CSS: =

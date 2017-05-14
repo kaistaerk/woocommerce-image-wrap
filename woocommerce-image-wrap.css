@@ -1,0 +1,12 @@
+/**
+ * Here you can add your own css code for the product image wrapper
+ */
+
+.wciw-product-image-wrapper { 
+     min-height: 210px; 
+}
+
+.wciw-product-image-wrapper img { 
+     width: inherit!important; 
+     margin: 0 auto !important; 
+}
